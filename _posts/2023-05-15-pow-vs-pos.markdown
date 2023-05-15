@@ -69,4 +69,10 @@ PoS cryptocurrencies attempt to solve this problem by either punishing the attac
 # **Why Proof of Stake centralizes the system**
 Because, the sources to contribute to the network aren't available outside the system. The "underpinnings" are in the stakers' fate. In proof of work, when you setup your ASICs and start mining you're, intentionally or not, *subsidizing decentralization* as the rest of the miners suddenly have less power. The opposite happens in proof of stake: To acquire voting power you increase their gains. 
 
+***
+&nbsp;
+
+From: [bitcointalk][2].
+
 [1]: https://ethereum.stackexchange.com/questions/2402/what-exactly-is-the-nothing-at-stake-problem
+[2]: https://bitcointalk.org/index.php?topic=5387588.0
