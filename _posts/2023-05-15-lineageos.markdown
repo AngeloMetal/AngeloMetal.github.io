@@ -20,7 +20,7 @@ The OS isn't privacy focused per se. It focuses on security and speed. As far as
 
 But the part which attracted me the most is the same as with Linux distros; open-sourceness. You really don't know what's going on behind the scenes of a pre-installed Googled Android device. Arguing that it does what it says is equally valid with arguing that it gives special permission to some apps in secret. In both cases, you don't have the evidence.  
 
-I really don't know what was the fault with the incident I described previously. I only know that it happened, and that I had given no permission to record my voice with no apps are running and phone closed. It is serious enough to have me switching to alternatives.
+I really don't know what was the fault with the incident I described previously. I only know that it happened, and that I had given no permission to record my voice with no apps running and phone closed. It is serious enough to have me switching to alternatives.
 
 LineageOS lets the user tune those very permissions. Does Google Maps request microphone permission? You have the option to either:
 - not give it.
