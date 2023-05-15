@@ -4,15 +4,17 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I'm an undergraduate computer science student at the [department of informatics and telecommunications][1] ("DIT" for short) in the [National and Kapodistrian University of Athens][2].
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+At the time of writing, I am not very competent with programming and software engineering, but I aim to become. Blogging can [partly help me with that][3]. I'm interested in writing code (alas), bitcoin and solving problems.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+You can either reach me at Discord (``Angelo M.#8010``) or email. For sensitive messages, grab my [PGP public key][4].
 
+Expect this page to have frequent updates. 
 
-[jekyll-organization]: https://github.com/jekyll
+<h6>BTW, howdy web archive?</h6>
+
+[1]: https://www.di.uoa.gr/
+[2]: https://en.wikipedia.org/wiki/National_and_Kapodistrian_University_of_Athens
+[3]: /2023/05/15/why.html
+[4]: https://github.com/AngeloMetal.gpg

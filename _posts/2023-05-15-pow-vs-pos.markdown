@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Proof-of-Work vs. Proof-of-Stake"
-date:   2023-05-15 15:57:44 +0300
-categories: jekyll update
+date:   2023-05-15 19:39:44 +0300
 ---
 This thread is a tribute to all the discussions that have been made regarding these two mechanisms. As a PoW enthusiast, I'd like to explain why PoS is an inferior mechanism for such protocol as it loses in both centralization and capability of producing consensus, two of which are necessary for an innovative kind of money of this character.
 
