@@ -13,8 +13,12 @@ Privacy:
 - [The Value of Privacy][4]
 - [Bitcoin Privacy][5]
 
+Computers:
+- [Putting the “You” in CPU][6]
+
 [1]: https://friedfoo.wordpress.com/
 [2]: https://secondl1ght.site/blog/privacy-tools
 [3]: https://pluja.github.io/awesome-privacy/
 [4]: https://www.schneier.com/blog/archives/2006/05/the_value_of_pr.html
 [5]: https://www.lopp.net/bitcoin-information/privacy.html
+[6]: https://cpu.land/
