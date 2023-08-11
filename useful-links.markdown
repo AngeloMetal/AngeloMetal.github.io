@@ -6,6 +6,7 @@ permalink: /useful-links
 
 Science related:
 - [areas of interest (making sense of stuff: THE WAY to transcendence)][1]
+- [3Blue1Brown][7]
 
 Privacy:
 - [secondl1ght - blog][2]
@@ -22,3 +23,4 @@ Computers:
 [4]: https://www.schneier.com/blog/archives/2006/05/the_value_of_pr.html
 [5]: https://www.lopp.net/bitcoin-information/privacy.html
 [6]: https://cpu.land/
+[7]: https://www.3blue1brown.com/
