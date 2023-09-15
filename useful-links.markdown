@@ -13,6 +13,7 @@ Privacy:
 - [Awesome Privacy][3]
 - [The Value of Privacy][4]
 - [Bitcoin Privacy][5]
+- [Side of Burritos][8]
 
 Computers:
 - [Putting the “You” in CPU][6]
@@ -24,3 +25,4 @@ Computers:
 [5]: https://www.lopp.net/bitcoin-information/privacy.html
 [6]: https://cpu.land/
 [7]: https://www.3blue1brown.com/
+[8]: https://sideofburritos.com/
