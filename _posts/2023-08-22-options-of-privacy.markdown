@@ -64,7 +64,7 @@ cons:
 ---
 ‎
 
-- <font size="5">3. Swapping bitcoin with a private cryptocurrency</font> 
+- <font size="5">Swapping bitcoin with a private cryptocurrency</font> 
 The third option is most likely underestimated. Swapping decentralized, cheaply, and with the largest anonymity set currently available ([Monero / XMR][10]), is attractive. Let's look in each pro and con closely.
 
 pros:
