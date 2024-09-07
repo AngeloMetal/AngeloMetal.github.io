@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Why"
+date:   2023-05-15 19:07:00 +0300
+---
+
+"The point of this blog" you might ask? Well, besides fun:
+
+* It improves communication and writing skills. 
+* It acts as repository to my knowledge. 
+* It improves technical skills, because the process of explaining complex concepts in simple terms reinforces my understanding. Also, “If you can't explain something to a first year student, then you haven't really understood.” - [R. Feynman][1]
+* Networking.
+
+Ok, so the real question now: why "angelo dot one"? No particular reason.
+
+Just as [Vsauce][2], "angelo.1" was randomly picked. Although instead of fakenamegenerator.com, I used a comparably inferior source of randomness; ~~[xkcd][3]~~ human brain. If "angelo.1" does not seem random to you, then good. That's the [moral of the story][4].
+
+<span style="color:grey">My name *is* Angelo btw.</span>
+
+[1]: https://everything2.com/title/Richard+P.+Feynman
+[2]: https://youtu.be/Y45aema4iyM?t=165
+[3]: https://xkcd.com/221/
+[4]: https://youtu.be/cyn2pHAzaYw
