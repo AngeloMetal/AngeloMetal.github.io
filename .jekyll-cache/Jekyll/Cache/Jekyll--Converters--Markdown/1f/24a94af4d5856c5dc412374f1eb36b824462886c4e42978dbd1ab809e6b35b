@@ -1,0 +1,107 @@
+I"�<p>Due to recent events with <a href="https://www.justice.gov/opa/pr/justice-department-investigation-leads-takedown-darknet-cryptocurrency-mixer-processed-over-3">mixer being confiscated by authorities</a>, or <a href="https://bitcointalk.org/index.php?action=trust;u=3537433">mixer doing an exit scam</a>, or with a <a href="https://bitcointalk.org/index.php?topic=5389567.80">seemingly legitimate pro-privacy company going in the opposite direction</a>, I think a clarification of where we are at the moment in protecting the users’ privacy is necessary.</p>
+
+<p>There are three ways to secure privacy of your bitcoins, each of which comes with its own advantages and disadvantages. Pick according to what fits you best.</p>
+
+<ul>
+  <li>
+    <font size="5">CoinJoining</font>
+    <p>There are three ways to do a <a href="https://en.bitcoin.it/wiki/CoinJoin">coinjoin</a> with a large liquidity and effectively. Joinmarket, Whirlpool, and Wasabi. We’ll break down each.</p>
+  </li>
+</ul>
+
+<font size="4">1. Joinmarket</font>
+<p>pros:</p>
+<ul>
+  <li>Decentralized; each of you can become your own coordinator if you provide sufficient liquidity. The protocol is designed to work with many takers (those that will take ordinary users’ offers).</li>
+  <li>Self-custody.</li>
+  <li>Large liquidity for coinjoins. (<a href="https://nixbitcoin.org/orderbook/">orderbook</a>)</li>
+</ul>
+
+<p>cons:</p>
+<ul>
+  <li>Difficult to setup for the average user.</li>
+  <li>Expensive; you’re paying for the inputs of the takers. Those inputs are recommended to be more than 9, so you’ll be paying for at least a large in size transaction. This can be in the range of $5 to $10 sometimes.</li>
+</ul>
+
+<hr />
+<p>‎</p>
+<font size="4">2. Whirlpool</font>
+<p>pros:</p>
+<ul>
+  <li>Self-custody.</li>
+  <li>Very effective, contains <a href="https://bitcoin.clarkmoody.com/dashboard/">~8,500 BTC</a> in liquidity and you can make as many coinjoins as you want once you enter a pool.</li>
+  <li>Cheap. For amounts within 0.001 and 0.025 BTC, you’re paying only 5,000 sat. For larger amounts less than 0.7 BTC, 50,000 sat. (mining fees asides)</li>
+</ul>
+
+<p>cons:</p>
+<ul>
+  <li>Not fundamentally decentralized; you’ll be using Samurai’s whirlpool, as they have the most liquidity.</li>
+</ul>
+
+<hr />
+<p>‎</p>
+<font size="4">3. Wasabi</font>
+<p>pros:</p>
+<ul>
+  <li>Self-custody.</li>
+  <li>Cheap. A fresh input (that isn’t already coinjoined) will only cost 0.3% of the amount with free remixes according to the wiki. (mining fees asides)</li>
+</ul>
+
+<p>cons:</p>
+<ul>
+  <li>Not decentralized. Liquidity sits on top of the default coordinator, even though it’s theoretically possible connect to other servers (none of which I’m aware of).</li>
+  <li>Service treats the currency as non-fungible and might blacklist your inputs without rationale given.</li>
+  <li>Software is caught to have flaws with protecting user’s privacy: <a href="https://twitter.com/wasabistats">https://twitter.com/wasabistats</a>.</li>
+  <li>Funds blockchain analysis company and requests permission from them when user does coinjoin.</li>
+</ul>
+
+<hr />
+<hr />
+<p>‎</p>
+
+<ul>
+  <li>
+    <font size="5">Mixer services</font>
+    <p>In this category falls every Internet service that runs individually. You can find an extended list in here: <a href="https://bitcointalk.org/index.php?topic=2827109.0">2023 List Bitcoin Mixers Bitcoin Tumblers Websites</a>. Each service might come with other benefits, but they all fundamentally share the same pros and cons following:</p>
+  </li>
+</ul>
+
+<p>pros:</p>
+<ul>
+  <li>Can be cheap. In fact, some services in the past charged you absolutely nothing.</li>
+  <li>Can be very effective. Services in the past used techniques like time travel and cutting of blockchain connection, both of which are impossible to do with coinjoins.</li>
+</ul>
+
+<p>cons:</p>
+<ul>
+  <li>You’re forfeiting the custody of your coins.</li>
+  <li>Trust that the service isn’t a honeypot or doesn’t keep logs is needed.</li>
+</ul>
+
+<hr />
+<hr />
+<p>‎</p>
+
+<ul>
+  <li>
+    <font size="5">Swapping bitcoin with a private cryptocurrency</font>
+    <p>The third option is most likely underestimated. Swapping decentralized, cheaply, and with the largest anonymity set currently available (<a href="https://www.getmonero.org/">Monero / XMR</a>), is attractive. Let’s look in each pro and con closely.</p>
+  </li>
+</ul>
+
+<p>pros:</p>
+<ul>
+  <li>Decentralized, using <a href="https://bisq.network/">Bisq</a>, you can trade bitcoin for XMR, and there appear to be lots of offers: <a href="https://bisq.markets/market/xmr_btc">https://bisq.markets/market/xmr_btc</a></li>
+  <li>Very effective; largest anonymity set (about $2.6B in <a href="https://coinmarketcap.com/currencies/monero/">market cap</a>). You can also take advantage of the time; you can keep the XMR for an indefinite time, and make yourself even more untraceable.</li>
+  <li>Self-custody. (if Bisq is used)</li>
+  <li>No trust required. Monero is a network resulted from cryptographic achievements like ring signatures and their combination with confidential transactions.</li>
+</ul>
+
+<p>cons:</p>
+<ul>
+  <li>Might be a little complicated, as the user has to get along with Monero, and maybe even run a <a href="https://www.getmonero.org/downloads/">full node</a> for additional privacy.</li>
+  <li>Might come a little more expensive sometimes. Total costs are: Bitcoin on-chain fees (<a href="https://bisq.wiki/Trading_costs">4 TXs</a>), Monero on-chain fees (nearly zero), Bisq fees (<a href="https://bisq.wiki/Trading_costs">trading costs</a>).</li>
+  <li>You’re giving up bitcoin for an altcoin. Some may not like that, and if you keep it for a lot of time, there might be price fluctuations (which can be seen as an advantage too, as they randomize the swapped bitcoin amount).</li>
+</ul>
+
+:ET

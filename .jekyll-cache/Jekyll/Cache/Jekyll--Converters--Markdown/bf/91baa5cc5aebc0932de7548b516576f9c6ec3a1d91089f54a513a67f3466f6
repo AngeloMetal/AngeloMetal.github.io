@@ -1,0 +1,86 @@
+I"� <p>This thread is a tribute to all the discussions that have been made regarding these two mechanisms. As a PoW enthusiast, I’d like to explain why PoS is an inferior mechanism for such protocol as it loses in both centralization and capability of producing consensus, two of which are necessary for an innovative kind of money of this character.</p>
+
+<p>But, before I move onto anything, I think that it’s very important to understand what’s <em>centralization</em>. It can be described as:</p>
+<blockquote>
+  <p>The action or process of bringing activities together in one place.</p>
+</blockquote>
+
+<p>As you may get, centralization is a vague term and it’s nowadays misused either unwittingly or to favor benefits. One may say that Bitcoin is less centralized in contrast with an altcoin, because its hash rate is distributed more properly, but they’d also be as correct as one saying that it’s less centralized, because it has a better wealth distribution (no ICOs etc.). An other may say that few pools own the majority of the hash rate and hence, it’s centralized; they may disagree that centralization can be measured etc.</p>
+
+<p>Therefore, we need to precise what exactly we’ll call centralization. My definition goes as following:</p>
+<blockquote>
+  <p>Centralization is the situation where few people (can) have a great affectation to the final outcome of our economy.</p>
+</blockquote>
+
+<p>So, the more something’s centralized, the more those few can affect it. They’re analogous values. These people can either be developers or regular users.</p>
+
+<h1 id="proof-of-work"><strong>Proof of Work</strong></h1>
+<p>How it works in theory: (With lottery tickets as metaphor)</p>
+
+<ol>
+  <li>Everyone can generate lottery tickets.</li>
+  <li>Scratching those requires spending of computational power.</li>
+  <li>There’s no way to know if a ticket is a winning one unless you scratch it.</li>
+  <li>Each ticket has a rarity.</li>
+  <li>If someone proves they scratched a ticket whose rarity was one-out-of-one-trillion, they essentially reveal that they have searched one trillion tickets on average.</li>
+  <li>The network decides what rarity is required for a ticket to be a winning one.</li>
+  <li>Whoever scratches such ticket gets a reward.</li>
+  <li>The required rarity changes based on the frequency of the winners.</li>
+</ol>
+
+<h1 id="proof-of-stake"><strong>Proof of Stake</strong></h1>
+<p>How it works in theory:</p>
+<ol>
+  <li>Owners of the cryptocurrency lock up their funds.</li>
+  <li>They vote by proving their financial bond with a digital signature. The greater the bond, the more the votes.</li>
+  <li>The block with the most votes is considered the valid one.</li>
+</ol>
+
+<hr />
+<p> </p>
+
+<p>A <em>valid</em> transaction is a transaction that complies with the consensus rules and has been included into a block. For example, if you try to spend a transaction output that has already been spent, then the transaction is invalid as it goes against the rules. Satoshi Nakamoto solved the double-spending problem in the following way:</p>
+
+<ul>
+  <li>Require all the transactions to go through a ledger. Any transaction that is not written in it is ignored.</li>
+  <li>When there are two conflicting transactions, the “correct” one is the one that was published first.</li>
+  <li>To determine time, you need a timestamp server.</li>
+  <li>To have a timestamp server, rely on proof of work.</li>
+</ul>
+
+<p>That way you can ensure for the validity of the ledger, without being present all the time. Consensus takes place when the transaction ordering problem is resolved in a decentralized way. That’s essentially Bitcoin. That’s the Byzantine generals’ <em>concerted strategy</em>.</p>
+
+<h1 id="why-proof-of-stake-cannot-produce-consensus"><strong>Why Proof of Stake cannot produce consensus</strong></h1>
+<p>Punishment plays a big role in this system. Our wealth is protected solely from a game theory: One or more entities are discouraged to cheat. Why that happens? Well, besides that:</p>
+
+<p><sub><sup>Quote from: bitcoin.pdf, Satoshi Nakamoto</sup></sub></p>
+<blockquote>
+  <p>The incentive may help encourage nodes to stay honest. If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules, such rules that favour him with more new coins than everyone else combined, than to undermine the system and the validity of his own wealth</p>
+</blockquote>
+
+<p>There’s also one thing our fellow forgot to mention (or emphasize): Energy. If one’s behavior is dishonest towards the network, they’re forced to pay for acquiring energy whether their attack is successful or not. <strong>They’re punished outside the system.</strong></p>
+
+<p>This is not true in proof of stake and you’ll understand why that’s bad along the way. Nonetheless, there has to be a way to discourage cheaters, even if they’re punished within the system’s borders, and there is: Security deposits. Once nodes stake their money, the network can use those to punish them in case they misbehave.</p>
+
+<p>While the mechanism uses the users’ money to avoid double-spending it suffers from the so-called “double-signing problem”. In other words, the system isn’t objective in broad terms:</p>
+
+<p><sub><sup>Quote from: How I Learned to Love Weak Subjectivity, Vitalik Buterin</sup></sub></p>
+<blockquote>
+  <p>However, new nodes joining the network, and nodes that appear online after a very long time, would not have the consensus algorithm reliably protecting them. Fortunately, for them, the solution is simple: the first time they sign up, and every time they stay offline for a very very long time, they need only get a recent block hash from a friend, a blockchain explorer, or simply their software provider, and paste it into their blockchain client as a “checkpoint”. They will then be able to securely update their view of the current state from there.</p>
+</blockquote>
+
+<p>Remember, we use consensus to ensure that a newbie who just installed a client, syncs without doubt of whether what they’re receiving is valid or not. Their node demands from the rest to send blocks, it verifies the validity of every block and transaction and it’ll initially reach to the last block of the chain with the most work. That’s essentially the purpose of consensus; to avoid having unreliable actors.</p>
+
+<p>When it comes to unreliability, our newbie is definitely safe in the PoW environment, but not in the PoS’. You see, since there’s lack of objectivity, the weaknesses already seem to show up. If, say, one wanted to attack, they could gain much influence by liquidating their stake and proceeding to the abuse of their own keys. Any blocks that had been signed by them would be vulnerable and they’d have nothing to lose. That’s known as “<a href="https://ethereum.stackexchange.com/questions/2402/what-exactly-is-the-nothing-at-stake-problem">Nothing at stake problem</a>”.</p>
+
+<p>PoS cryptocurrencies attempt to solve this problem by either punishing the attackers with the deposits’ loss if they sign another block during a particular period of time or by ignoring a block that is signed a certain period of time later. The problem is that you can only do the latter if you were there from the start. If you had your node syncing, you’d have no way to know which of the two identical blocks is the correct one. As I’ve already said <strong>to have a timestamp server you need to rely on proof of work.</strong></p>
+
+<h1 id="why-proof-of-stake-centralizes-the-system"><strong>Why Proof of Stake centralizes the system</strong></h1>
+<p>Because, the sources to contribute to the network aren’t available outside the system. The “underpinnings” are in the stakers’ fate. In proof of work, when you setup your ASICs and start mining you’re, intentionally or not, <em>subsidizing decentralization</em> as the rest of the miners suddenly have less power. The opposite happens in proof of stake: To acquire voting power you increase their gains.</p>
+
+<hr />
+<p> </p>
+
+<p>From: <a href="https://bitcointalk.org/index.php?topic=5387588.0">bitcointalk</a>.</p>
+
+:ET
